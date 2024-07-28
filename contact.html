@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Hostel Management System</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+ 
+</head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="img/logo.png" ></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about-us.html">ABOUT</a></li>
+                        <li><a href="gallery.html">ROOMS</a></li>                        
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="signup.html">SIGN UP </a></li>
+                        <li><a href="signin.html">SIGN IN </a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+           <h1>Contact Us</h1>
+        </section>
+        <!--contact us content-->
+        <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5559602650264!2d77.60618879999997!3d12.936236200000007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15b277a93807%3A0x88518f37b39dabd0!2sChrist%20University!5e0!3m2!1sen!2sin!4v1722166777881!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span>
+                        <h5> ABCA Road ,XYZ Building</h5>
+                        <p>Bsngalore,Karnataka,IN</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                        <h5>+91 1234567890</h5>
+                        <p>,Karnataka,IN</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                        <span>
+                        <h5> castlehostels@gmail.com</h5>
+                        <p>Email us your query</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="contact-col">
+                    <form action="">
+                        <input type="text" placeholder="Enter your name" required>
+                        <input type="email" placeholder="Enter your email address" required>
+                        <input type="text" placeholder="Enter your subect" required>
+                        <textarea rows="8" placeholder="Message" required></textarea>
+                        <button type="submit" class="hero-btn red-btn"> SEND MESSAGE</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+    <!--footer-->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>At Castle, its our aim to provide you with the luxury and comfort a home can provide
+            The high-quality equipments and well-finished features enhance the lifestyle.
+            we promise the best and utmost in service and solutions for students needs
+        </p>
+        <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter" ></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin" ></i>
+        </div>
+        <p>made by Malavika Manoj</p>
+    </section>
+
+<!--Javascript for toggle-->
+        <script>
+
+            var navLinks = document.getElementById("navLinks")
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>
