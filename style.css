@@ -126,6 +126,36 @@ nav .fa{
     padding-top: 100px;
     
 }
+.carousel-item img {
+    height: 600px; /* Set your desired height */
+    width: 100%; /* Maintain the aspect ratio */
+    object-fit: cover; /* Ensure the image covers the entire area */
+}
+svg {
+    fill: #f1ecec;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+.carousel-item p{
+    color: #f1ecec;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 10px;
+    background-color: #320e0e;
+    display: inline-block; /* Shrinks the background to fit the text content */
+    max-width: 100%; /* Ensures the paragraph doesn't exceed the image width */
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(232, 149, 149, 0.5); /* Background color for visibility */
+    border-radius: 50%; /* Make them circular if desired */
+    width: 50px;
+    height: 50px;
+}
 h1{
     font-size: 36px;
     font-weight: 600;
@@ -226,7 +256,7 @@ h3{
     opacity: 1;
 
 }
-/*------facility*/
+/*------facility */
 .facilites{
     width: 80%;
     margin:auto;
@@ -555,3 +585,10 @@ hr{
     font-weight: 600;
     color: #eb6c6c
 }
+.svg-icon {
+    width: 100px; /* Adjust as needed */
+    height: auto;
+}
+
+
+
